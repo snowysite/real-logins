@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+.btn-success {
+    background-color: #6c7a48;
+    border: none;
+}
+.btn-success:hover {
+    background-color: #5a6938;
+}

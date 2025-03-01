@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.bg-dark {
+    background-color: #121212 !important;
+}
+.text-primary {
+    color: #ff1493 !important;
+}
+.btn-primary {
+    background-color: #ff1493;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #e60073;
+}
