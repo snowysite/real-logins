@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <h1>Sign Up to</h1>
+            <p>Lorem Ipsum is simply</p>
+            <p>If you already have an account, <a href="index.html">Login here!</a></p>
+        </div>
+  <!-- Add your image here -->
+          <img src="images/Saly-14.png" alt="Description of image" class="img-fluid">
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="form-card">
+                <h2 class="mb-4"> Sign Up</h2>
+                <form action="process_signup.php" method="POST">
+                    <input type="email" name="email" class="form-control" placeholder="Enter Email" required>
+                    <input type="text" name="username" class="form-control" placeholder="Create Username" required>
+                    <input type="text" name="contact_number" class="form-control" placeholder="Contact Number" required>
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                    <input type="password" name="confirm_password" class="form-control" placeholder="Confirm Password" required>
+                    <button type="submit"> Register </button>
+                </form>
+                <div class="text-center mt-3">or continue with</div>
+                <div class="social-icons mt-2">
+                    <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/google.png" alt="Google"></a>
+                    <a href="#"><img src="images/apple.png" alt="Apple"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
